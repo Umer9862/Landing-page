@@ -12,9 +12,10 @@ html {
 header,
 footer {
   background-color: #1f2937;
+}
+header {
   height: 60vh;
 }
-
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -133,4 +134,15 @@ h5 {
   color: #e5e7eb;
   border: 1px #e5e7eb solid;
   background-color: #3882f6;
+}
+footer {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ftext {
+  font-size: 1.3rem;
+  color: #e5e7eb;
+  text-align: center;
 }
