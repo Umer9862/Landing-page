@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Urbanist";
+}
+
+header,
+footer {
+  background-color: #1f2937;
+  height: 60vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo h1 {
+  font-size: 2.4rem; /* Resetting font size to 1rem to avoid any default browser styles */
+  color: #f9faf8;
+}
+.header-links ul {
+  list-style: none;
+  display: inline-flex;
+  font-size: 1.6rem;
+  color: #f9faf8;
+}
+.header-links ul li {
+  padding: 1rem;
+}
+.hero {
+  margin: 10rem 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.hero-text-area {
+  margin-right: 10rem;
+}
+.hero-text-area h2 {
+  color: white;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.hero-text-area p {
+  color: #e5e7eb;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.hero-text-area button {
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1.4rem;
+  background-color: #3882f6;
+  color: white;
+  margin: auto;
+  padding: auto;
+  padding: 0.4rem 2rem;
+}
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.image-placeholder img {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
